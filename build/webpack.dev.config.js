@@ -20,9 +20,9 @@ console.log(distDir);
 module.exports = merge(webpackBaseConfig, {
     devtool: '#source-map',
     output: {
-        publicPath: '/dist/',
+        publicPath: '../dist/',
         filename: '[name].js',
-        chunkFilename: '[name].chunk.js'
+        // chunkFilename: '[name].chunk.js'
     },
     plugins: [
         new ExtractTextPlugin({
