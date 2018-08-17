@@ -37,7 +37,7 @@ function api(path, document, callback) {
         var responseData = response.data;
         console.log("response::", response);
         if (typeof (response) === 'string') {
-            responseData = json_1.json(response);
+            responseData = json_1.json(response); // 做字符串解析
         }
         switch (responseData.code) {
             case 404:
