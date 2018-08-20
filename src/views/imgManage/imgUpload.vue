@@ -36,7 +36,7 @@
         </p>
         <div class="height-120px">
           <Row type="flex" justify="center" align="middle" class="height-100">
-            <Upload name="photos" action="http://www.shrs2006/cgi-bin/service/upload/imgUpload" accept="image/*" :format="['jpg', 'png', 'jpeg', 'gif', 'bmp', 'svg']" :on-format-error="handleFormatError" :on-success="uploadSuccess" :before-upload="beforeUpload">
+            <Upload name="photos" action="http://www.shrs2006.com/cgi-bin/service/upload/imgUpload" accept="image/*" :format="['jpg', 'png', 'jpeg', 'gif', 'bmp', 'svg']" :on-format-error="handleFormatError" :on-success="uploadSuccess" :before-upload="beforeUpload">
               <span>选择图片上传&nbsp;&nbsp;</span>
               <Button class="margin-top-20" type="ghost" icon="ios-cloud-upload-outline">上传文件</Button>
             </Upload>
